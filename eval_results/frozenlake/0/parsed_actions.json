@@ -1,0 +1,53 @@
+{
+    "start_coords": [
+        [
+            2,
+            2
+        ],
+        [
+            2,
+            1
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    "action_list": [
+        [
+            2,
+            "left"
+        ],
+        [
+            0,
+            "up"
+        ]
+    ],
+    "complete": true,
+    "level": 3,
+    "start_pos": 8,
+    "target_pos": 4,
+    "layout": [
+        [
+            "H",
+            "F",
+            "F"
+        ],
+        [
+            "F",
+            "G",
+            "H"
+        ],
+        [
+            "F",
+            "F",
+            "S"
+        ]
+    ],
+    "distance_map": {
+        "8": 2,
+        "3": 1,
+        "6": 2,
+        "7": 1
+    }
+}

@@ -1,0 +1,13 @@
+model_path: ./models/frozenlake/VPRL_merged_ckpts
+lora_path: null
+test_dataset_pth: dataset/frozenlake/tokenized_dataset/SFT/test_dataset.jsonl
+evaluation_result_folder_pth: ./eval_results/frozenlake
+batch_size: 1
+seed: 42
+show_stats: false
+is_filter: false
+double: false
+
+hydra:
+  run:
+    dir: .

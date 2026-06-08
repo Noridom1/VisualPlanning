@@ -286,7 +286,7 @@ def show_stats_mini(base_dir):
 def detect_task(test_dataset_pth: str) -> str:
     if "maze" in test_dataset_pth.lower():
         return "maze"
-    elif "frozen_lake" in test_dataset_pth.lower():
+    elif "frozenlake" in test_dataset_pth.lower():
         return "frozenlake"
     elif "minibehaviour" in test_dataset_pth.lower():
         return "minibehaviour"
